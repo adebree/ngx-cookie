@@ -17,7 +17,10 @@ npm-debug.log
 !examples/**/*.js
 coverage
 *.metadata.json
-bundles
+
+# Temporary allow ngx-cookie.umd.js so we can commit this into a 'builded' branch
+!bundles/ngx-cookie.umd.js
+#bundles
 
 #################
 ## JetBrains
@@ -42,4 +45,3 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
-
